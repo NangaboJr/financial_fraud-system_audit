@@ -1,6 +1,6 @@
 # 🛡️ Financial Fraud System Audit & Behavioral Analysis
 ## Project Overview
-This project is a deep-dive audit of a financial system containing over **6 million transactions**. My original goal is to evaluate the effectiveness of current fraud detection protocols and identify technical loopholes used by fraudsters to bypass system flags.
+This project is a deep dive audit of a financial system containing over **6 million transactions**. My original goal actually has been evaluate the effectiveness of current fraud detection protocols and identify technical loopholes used by fraudsters to bypass system flags.
 
 ## 📈 Executive Summary: The "Business Case"
 *   **System Failure Identified:** The existing automated flagging system (`isFlaggedFraud`) failed to catch **99.8%** of actual fraud cases (only 16 out of 8,213 cases flagged).
@@ -11,6 +11,8 @@ This project is a deep-dive audit of a financial system containing over **6 mill
 1.  **High-Risk Channels:** Fraud is exclusively concentrated in `TRANSFER` and `CASH_OUT` transaction types. 
 2.  **Persistent Automation:** Unlike normal human transactions that follow a day/night cycle, fraudulent activity remains constant 24/7, suggesting the use of automated scripts.
 3.  **Efficiency Gain:** Recommended de-prioritizing monitoring for 3.6 million low-risk transactions (`PAYMENT`, `CASH_IN`, `DEBIT`) to focus resources on high-threat channels.
+
+## Estimated Impact: By automating the "Account-Emptying" detection rule, the system can transition from reactive reporting to proactive prevention, potentially saving millions in previously "invisible" fraudulent transfers
 
 ## Tools Used
 *   **Python 3.x**
