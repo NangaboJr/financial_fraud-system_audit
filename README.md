@@ -12,7 +12,8 @@ This project is a deep dive audit of a financial system containing over **6 mill
 2.  **Persistent Automation:** Unlike normal human transactions that follow a day/night cycle, fraudulent activity remains constant 24/7, suggesting the use of automated scripts.
 3.  **Efficiency Gain:** Recommended de-prioritizing monitoring for 3.6 million low-risk transactions (`PAYMENT`, `CASH_IN`, `DEBIT`) to focus resources on high-threat channels.
 
-## Estimated Impact: By automating the "Account-Emptying" detection rule, the system can transition from reactive reporting to proactive prevention, potentially saving millions in previously "invisible" fraudulent transfers
+## Estimated Impact
+By automating the "Account-Emptying" detection rule, the system can transition from reactive reporting to proactive prevention, potentially saving millions in previously "invisible" fraudulent transfers
 
 ## Tools Used
 *   **Python 3.x**
