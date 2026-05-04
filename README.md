@@ -1,6 +1,4 @@
 # 🛡️ Financial Fraud System Audit & Behavioral Analysis
-**Author:** Nangabo I. Mistah | Business System Analyst
-
 ## Project Overview
 This project is a deep-dive audit of a financial system containing over **6 million transactions**. My original goal is to evaluate the effectiveness of current fraud detection protocols and identify technical loopholes used by fraudsters to bypass system flags.
 
